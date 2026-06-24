@@ -136,5 +136,21 @@ colored = "3.1.1"
 bytes = "1.11.1"
 regex = "1.12.3"
 
+[patch.crates-io]
+mogh_auth_client = { git = "https://github.com/buape/moghtech-lib", rev = "804f564102d49c3eff9b13f457284bcccee94d3d" }
+mogh_auth_server = { git = "https://github.com/buape/moghtech-lib", rev = "804f564102d49c3eff9b13f457284bcccee94d3d" }
+mogh_cache = { git = "https://github.com/buape/moghtech-lib", rev = "804f564102d49c3eff9b13f457284bcccee94d3d" }
+mogh_config = { git = "https://github.com/buape/moghtech-lib", rev = "804f564102d49c3eff9b13f457284bcccee94d3d" }
+mogh_error = { git = "https://github.com/buape/moghtech-lib", rev = "804f564102d49c3eff9b13f457284bcccee94d3d" }
+mogh_logger = { git = "https://github.com/buape/moghtech-lib", rev = "804f564102d49c3eff9b13f457284bcccee94d3d" }
+mogh_pki = { git = "https://github.com/buape/moghtech-lib", rev = "804f564102d49c3eff9b13f457284bcccee94d3d" }
+mogh_rate_limit = { git = "https://github.com/buape/moghtech-lib", rev = "804f564102d49c3eff9b13f457284bcccee94d3d" }
+mogh_request_ip = { git = "https://github.com/buape/moghtech-lib", rev = "804f564102d49c3eff9b13f457284bcccee94d3d" }
+mogh_resolver = { git = "https://github.com/buape/moghtech-lib", rev = "804f564102d49c3eff9b13f457284bcccee94d3d" }
+mogh_resolver_derive = { git = "https://github.com/buape/moghtech-lib", rev = "804f564102d49c3eff9b13f457284bcccee94d3d" }
+mogh_secret_file = { git = "https://github.com/buape/moghtech-lib", rev = "804f564102d49c3eff9b13f457284bcccee94d3d" }
+mogh_server = { git = "https://github.com/buape/moghtech-lib", rev = "804f564102d49c3eff9b13f457284bcccee94d3d" }
+mogh_validations = { git = "https://github.com/buape/moghtech-lib", rev = "804f564102d49c3eff9b13f457284bcccee94d3d" }
+
 [profile.release]
 strip = "debuginfo"

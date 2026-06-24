@@ -290,7 +290,6 @@ oidc_auto_redirect = false
 
 ## Sync Komodo User Group memberships from an OIDC claim on every OIDC login.
 ## Only memberships previously synced from OIDC are removed when claims change.
-## Manual group membership remains untouched.
 ## Env: KOMODO_OIDC_SYNC_USER_GROUPS
 ## Default: false
 oidc_sync_user_groups = false
